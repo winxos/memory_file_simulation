@@ -16,7 +16,7 @@ FS_HEAD fs_head = {
 };
 
 #define MAX_FILE_ADDRESS 10000
-#define MAX_FILE_COUNT 20
+
 u8 vfbuf[MAX_FILE_ADDRESS];
 
 const u8 file_xor_sum_offset = 0xE5;
